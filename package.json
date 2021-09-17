@@ -1,0 +1,44 @@
+{
+    "name": "ton-solidity",
+    "displayName": "ton-solidity",
+    "description": "Extension of syntax highlighting and autocomplete for the Solidity language of the Free TON ecosystem.",
+    "version": "0.0.1",
+    "publisher": "Timuchen",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "contributors": [
+        "Tim Tkachev"
+      ],
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Timuchen/ton-solidity"
+      },
+    "activationEvents": [
+        "onLanguage:solidity"
+    ],
+    "main": "./src/extension",  
+    "contributes": {
+        "languages": [{
+            "id": "solidity",
+            "aliases": ["ton-solidity", "solidity"],
+            "extensions": ["sol"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "solidity",
+            "scopeName": "source.ton.solidity",
+            "path": "./src/syntaxes/sol.tmLanguage.json"
+        }],
+        "snippets": [{
+              "language": "solidity",
+              "path": "./src/snippets/solidity.json"
+            }]
+    }
+}
