@@ -33,6 +33,18 @@
                 "solidity", 
                 "Solidity"
             ],
+            "themes": [
+                {
+                    "label": "TON-Crystal",
+                    "uiTheme": "vs",
+                    "path": "./src/theme/ton-crystal.json"
+                },
+                {
+                    "label": "TON-Crystal",
+                    "uiTheme": "vs",
+                    "path": "./src/theme/ton-crystal-dark.json"
+                }
+            ],
             "extensions": [
                 ".sol", 
                 ".ton"
