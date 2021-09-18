@@ -27,9 +27,17 @@
     "contributes": {
         "languages": [{
             "id": "solidity",
-            "aliases": ["ton-solidity", "solidity"],
-            "extensions": ["sol"],
-            "configuration": "./language-configuration.json"
+            "aliases": [
+                "ton-solidity",
+                "Ton-solidity", 
+                "solidity", 
+                "Solidity"
+            ],
+            "extensions": [
+                ".sol", 
+                ".ton"
+            ],
+            "configuration": "./src/language-configuration.json"
         }],
         "grammars": [{
             "language": "solidity",
