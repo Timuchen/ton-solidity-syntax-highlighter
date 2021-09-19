@@ -25,3 +25,7 @@ This is a simple and lightweight syntax highlighting extension for VSCode.
 
 Additionally:
 TON Crystal theme in dark and light styles
+
+## License
+
+This project is made available under the MIT License (MIT)
